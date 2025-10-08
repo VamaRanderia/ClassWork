@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multiplication Table</title>
+  <link rel="stylesheet" href="multi_table_style.css">
+  <script src="multi_table_script.js" defer></script>
+</head>
+<body>
+  <h2>Multiplication Table</h2>
+
+  <form onsubmit="return printTable()">
+    <label>Enter a number: </label>
+    <input type="number" id="num" required>
+    <button type="submit">Print Table</button>
+  </form>
+
+  <h3>Result:</h3>
+  <div id="result"></div>
+</body>
+</html>

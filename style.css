@@ -1,0 +1,162 @@
+body {
+  background-color: #e6f2ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #34495e;
+  margin-top: 40px;
+}
+
+h3 {
+  color: #555;
+}
+
+p, ul {
+  color: #555;
+  max-width: 600px;
+  margin: 10px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+#profile-img {
+  border-radius: 50%;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  width: 200px;
+  height: 200px;
+}
+#profile-img:hover {
+  transform: scale(1.05);
+}
+
+#skills-table {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fdfdfd;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+#skills-table th, #skills-table td {
+  border: 1px dotted #96D4D4;
+  padding: 12px;
+  text-align: center;
+}
+#skills-table th {
+  background-color: #d6f0ff;
+  color: #333;
+}
+#skills-table td {
+  background-color: #f2f9ff;
+}
+
+#container {
+  width: 90%;
+  max-width: 700px;
+  background-color: #ffffff;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#contact-iframe {
+  border: 2px solid #96D4D4;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+}
+
+#linkedin-icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+  transition: transform 0.3s;
+}
+#linkedin-icon:hover {
+  transform: scale(1.2);
+}
+
+#nav-buttons {
+  margin: 20px 0;
+}
+#nav-buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+#nav-buttons a:hover {
+  background-color: #217dbb;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+input, select, textarea {
+  width: 95%;
+  padding: 8px;
+  margin-top: 5px;
+}
+button {
+  background: #3498db;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-top: 15px;
+  width: 100%;
+  cursor: pointer;
+}
+button:hover {
+  background: #217dbb;
+}
+a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #3498db;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#radio-group label, #checkbox-group label {
+  display: inline-block;
+  margin-right: 15px;
+  font-weight: normal;
+}
+#radio-group input, #checkbox-group input {
+  margin-right: 5px;
+  vertical-align: middle;
+}

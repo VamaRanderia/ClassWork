@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Register</title>
+<style>
+  body {
+    background-color: #e6f2ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+  form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  input[type="text"], input[type="email"],
+  input[type="password"], input[type="date"],
+  input[type="number"], select {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  #radio-group label, #checkbox-group label {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+  }
+  #radio-group input, #checkbox-group input {
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  button {
+    background: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+    width: 100%;
+  }
+  button:hover {
+    background: #217dbb;
+  }
+  a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #3498db;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+  <label>Full Name:</label>
+  <input type="text" name="fullname" required>
+
+  <label>Email:</label>
+  <input type="email" name="email" required>
+
+  <label>Password:</label>
+  <input type="password" name="password" required>
+
+  <label>Birthdate:</label>
+  <input type="date" name="birthdate" required>
+
+  <label>Age:</label>
+  <input type="number" name="age" min="1" max="120" required>
+
+  <label>Gender:</label>
+  <div id="radio-group">
+    <label><input type="radio" name="gender" value="male">Male</label>
+    <label><input type="radio" name="gender" value="female">Female</label>
+  </div>
+
+  <label>Skills:</label>
+  <div id="checkbox-group">
+    <label><input type="checkbox" name="skills" value="AI">AI</label>
+    <label><input type="checkbox" name="skills" value="Web Dev">Web Development</label>
+    <label><input type="checkbox" name="skills" value="Design">Design</label>
+  </div>
+
+  <label>Country:</label>
+  <select name="country">
+    <option>India</option>
+    <option>USA</option>
+    <option>UK</option>
+  </select>
+
+  <button type="submit">Register</button>
+</form>
+<a href="portfolio.html">Back to Portfolio</a>
+</body>
+</html>
+
